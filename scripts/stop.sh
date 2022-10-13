@@ -15,3 +15,5 @@ else
 	echo "$TIME_NOW : stop PID $CURRENT_PID" >> $DEPLOY_LOG
 	kill -15 $CURRENT_PID
 fi
+
+bash\r
