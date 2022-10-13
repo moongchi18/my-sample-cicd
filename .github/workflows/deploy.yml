@@ -30,7 +30,7 @@ jobs:
         java-version: '11'  
 
     - name: Build with Maven 
-      run: mvn -B package
+      run: mvn -B package --file ./Sample/pom.xml
 
     - name: Configure AWS credentials
       uses: aws-actions/configure-aws-credentials@v1
