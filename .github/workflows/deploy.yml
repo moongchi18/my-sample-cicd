@@ -49,6 +49,7 @@ jobs:
           --source . 
 
     # https://docs.aws.amazon.com/cli/latest/reference/deploy/create-deployment.html
+    # test
     - name: Deploy to AWS EC2 from S3
       run: |
         aws deploy create-deployment \
