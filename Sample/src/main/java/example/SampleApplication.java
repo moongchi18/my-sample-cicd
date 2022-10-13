@@ -17,4 +17,8 @@ public class SampleApplication {
 	public String hello() {
 		return "hello AWS";
 	}
+	@GetMapping("/spring")
+	public String spring() {
+		return "겨울";
+	}
 }
