@@ -8,7 +8,7 @@ files:
 
 permissions:
   - object: /
-    pattern: "*"
+    pattern: "**"
     owner: ubuntu
     group: ubuntu
         
