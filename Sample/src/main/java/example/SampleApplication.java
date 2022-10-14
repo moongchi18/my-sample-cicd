@@ -19,6 +19,6 @@ public class SampleApplication {
 	}
 	@GetMapping("/spring")
 	public String spring() {
-		return "여름ㄴㄴㄴ";
+		return "여름ㄴㄴㄴㄴㅁㅁㅁㅁㅁ";
 	}
 }
